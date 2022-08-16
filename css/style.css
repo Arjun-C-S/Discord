@@ -1,0 +1,355 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.row>* {
+    padding: 0;    
+}
+.bg-photo{
+    width: 100%;
+}
+.hd-overlay{
+    position: absolute;
+    width: 100%;
+}
+.discord-logo{
+    height: 34px;
+    margin-left: 134px;
+    margin-top: 24px;
+}
+.navbar{
+    margin-left: 233px;
+    margin-top: 13px;
+}
+.hd-space{
+    padding-left: 23px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/whitney/Whitney-Book.ttf);
+}
+#navbar{
+    font-family: myFirstFont;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.btn-login{
+    font-family: myFirstFont;
+    font-weight: 600;
+    height: 38px;
+    width: 64px;
+    margin-top: 23px;
+    border-radius: 23px;
+    border: none;
+    font-size: 14px;
+    padding: 7px 14px;
+    margin-right: 90px;
+    background-color: white;
+}
+.btn-login:hover{
+    transition-duration: .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-timing-function:ease-in-out;
+    color: #5865f2;
+}
+@font-face {
+    font-family: bannerfont;
+    src: url(../font/DiscordFonts/Ginto-Nord/Ginto-Nord-700.woff2);
+}
+.banner{
+    position: absolute;
+    z-index: 2;
+    margin-top: -440px;
+    margin-left: 373px;
+    font-family: bannerfont;
+    font-size: 56px;
+    color: white;
+}
+.banner-text{
+    font-family: myFirstFont;
+    color: white;
+    line-height: 1.625;
+    font-size: clamp(16px,2vw,20px);
+    position: absolute;
+    z-index: 2;
+    margin-top: -333px;
+    margin-left: 336px;
+    width: 776px;
+    text-align: center;
+}
+.btn-download-win{
+    font-family: myFirstFont;
+    position: absolute;
+    z-index: 2;
+    margin-top: -200px;
+    margin-left: 407px;
+    text-align: center;    
+    font-weight: 600;
+    height: 56px;
+    width: 294px;
+    border-radius: 100px !important;
+    border: none;
+    font-size: 20px;
+    padding-left: 35px;
+    margin-right: 90px;
+    background-color: white;
+}
+.fa-arrow-right-to-bracket{
+    --fa-rotate-angle: 90deg;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+.btn-download-win:hover{
+    transition-duration: .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-timing-function:ease-in-out;
+    color: #5865f2;
+}
+.btn-open-discord{
+    font-family: myFirstFont;
+    position: absolute;
+    z-index: 2;
+    margin-top: -200px;
+    margin-left: 725px;
+    text-align: center;    
+    font-weight: 600;
+    height: 56px;
+    width: 315px;
+    border-radius: 100px !important;
+    border: none;
+    font-size: 20px;
+    margin-right: 90px;
+    background-color: #23272a;
+    color: white;
+}
+.btn-open-discord:hover{
+    transition-duration: .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-timing-function:ease-in-out;
+    background-color: #2c2f33;
+}
+@font-face {
+    font-family: study-group;
+    src: url(../font/DiscordFonts/Ginto/Ginto-700.woff);
+}
+.study-group-heading{
+    font-family: study-group;
+    font-weight: 700;
+    padding-top: 31px;
+    margin-left: 214px;
+    font-size: 48px;
+}
+.first-row{
+    padding-top: 123px;
+}
+.study-img{
+    margin-left: 133px;
+}
+.study-group-text{
+    margin-top: 24px;
+    margin-left: 218px;
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+}
+.sec-2{
+    padding-bottom: 122px;
+}
+.voice-sec{
+    padding-left: 64px;
+}
+.study-group2-heading{
+    font-family: study-group;
+    font-weight: 700;
+    padding-top: 31px;
+    margin-left: 214px;
+    font-size: 48px;
+}
+.second-row{
+    padding-top: 171px;
+    margin-left: -156px;
+}
+.study-img2{
+    margin-left: -19px;
+    margin-top: -53px;
+}
+.study-group2-text{
+    margin-top: 24px;
+    margin-left: 218px;
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+}
+.sec-3{
+    padding-bottom: 128px;
+    background-color: #f6f6f6;
+}
+.couch-text{
+    padding-top: 50px;
+}
+.banner2{
+    margin-top: 0px;
+    margin-left: 256px;
+    font-family: bannerfont;
+    font-size: clamp(20px,4vw,40px);
+    color: #23272a;
+}
+.sec-4{
+    padding-bottom: 128px;
+    background-color: #f6f6f6;
+}
+.row-chillin{
+    padding-top: 108px;
+}
+.chillin-text{
+    font-family: myFirstFont;
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+    margin-left: 0px;
+    font-weight: 300;
+    color: #232764;
+    text-align: center;
+}
+.chillin-img{
+    width: 100%;
+    margin-left: 130px;
+}
+.banner3{
+    text-align: center;
+    padding-top: 56px;
+}
+.btn-star-win{
+    font-family: myFirstFont;
+    margin-top: 23px;
+    margin-left: 574px;
+    text-align: center;
+    font-weight: 600;
+    height: 56px;
+    width: 294px;
+    border-radius: 100px !important;
+    border: none;
+    font-size: 20px;
+    padding-left: 35px;
+    margin-right: 90px;
+    color: white;
+    background-color: #5865f2;
+}
+.btn-star-win:hover{
+    transition-duration: .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-timing-function:ease-in-out;
+    background-color: #7983f5;
+}
+.star-text{
+    font-family: study-group;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: -28px;
+    margin-left: -2px;
+    line-height: 1.625;
+    text-align: center;
+}
+.footer-class{
+    padding-top: 80px;
+    padding-bottom: 64px;
+    background-color: #23272a;
+    width: 100%;
+    height: 511px;
+}
+.ft-pad{
+    padding-left: 158px;
+    padding-right: 131px;
+}
+.ft-imagine{
+    color: #5865f2;
+    font-family: bannerfont;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+}
+.flag-row{
+    margin-top: 6px;
+}
+.ft-flag{
+    height: 16px;
+    width: 24px;
+    margin-top: 4px;
+}
+.flag-text{
+    color: white;
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 18px;
+    
+}
+.ft-logo{
+    color: white;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.ft-table{
+    margin-left: 387px;
+    margin-top: 4px;
+    position: absolute;
+}
+.footer-table{
+    color: white;
+}
+.tb-col{
+    font-family: myFirstFont;
+    width: 200px;
+    height: 31px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #5865f2;
+}
+.tb-col-element{
+    color: white;
+    text-decoration: none;
+}
+.tb-col-element:hover{
+    text-decoration: underline;
+    color: white;
+}
+.footer-line{
+    width: 1181px;
+    background-color: #5865f2;
+    height: 1px;
+    margin-top: 300px;
+    margin-left: -318px;
+    position: relative;
+}
+.discord-logo-footer{
+    height: 34px;
+    margin-left: 134px;
+    margin-top: 24px;
+    margin-left: -12px;
+    margin-top: 28px;
+}
+.btn-login-footer{
+    font-family: myFirstFont;
+    font-weight: 600;
+    height: 38px;
+    margin-top: 23px;
+    border: none;
+    margin-right: 90px;
+    background-color: #5865f2;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    color: white;
+    width: 76px;
+    margin-left: 100px
+}
+.btn-login-footer:hover{
+    transition-duration: .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-timing-function:ease-in-out;
+    background-color: #7289da;
+}
